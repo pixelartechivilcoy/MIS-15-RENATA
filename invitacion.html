@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mis 15 Renata</title>
+
+
+  <link rel="stylesheet" href="inv.css">
+</head>
+<body>
+
+  <!-- Música -->
+  <audio id="musica" preload="auto" loop>
+    <source src="The Black Eyed Peas - I Gotta Feeling (Official Music Video).mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Botón música -->
+  <button id="musicToggle" class="music-btn">▶</button>
+
+<section class="foto-portada">
+  <img src="1.jpeg" class="hero-desktop" alt="Foto de la quinceañera">
+  <img src="1.jpeg" class="hero-mobile" alt="Foto">
+  <div class="hero-text">
+    <span class="hero-title">MIS 15</span>
+    <span class="hero-name">Renata</span>
+  </div>
+
+  
+   <!-- CUENTA REGRESIVA -->
+  <div class="countdown-wrapper">
+    <div class="countdown">
+      <div class="time-box">
+        <span id="days">0</span>
+        <small>DÍAS</small>
+      </div>
+      <div class="time-box">
+        <span id="hours">0</span>
+        <small>HORAS</small>
+      </div>
+      <div class="time-box">
+        <span id="minutes">0</span>
+        <small>MINUTOS</small>
+      </div>
+      <div class="time-box">
+        <span id="seconds">0</span>
+        <small>SEGUNDOS</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+ <section class="frase-separador">
+  <div class="linea reveal"></div>
+
+  <p class="frase-texto reveal">
+Acompañame en ésta <strong>noche</strong> tan <strong>especial</strong>.
+ </p>
+
+  <div class="linea reveal"></div>
+</section>
+
+<section class="section-fecha reveal">
+  <div class="fecha-contenido">
+    
+    <div class="fecha-icono">
+      <img src="Calendario.gif" alt="Calendario">
+    </div>
+
+    <h2 class="fecha-titulo">¿Cuándo?</h2>
+
+    <p class="fecha-texto">
+      24 de Octubre de 2026<br>
+      | 21:00 Hs |
+    </p>
+
+  </div>
+</section>
+
+<section class="donde-section reveal">
+
+  <!-- ICONO (poné tu imagen acá) -->
+  <img src="Ubicacion.gif" alt="Ubicación" class="icono-donde">
+
+  <p class="donde-titulo">¿Dónde?</p>
+
+  <p class="donde-info">
+    Salón Cámara de Comercio <br>
+    Saladillo, Buenos Aires
+  </p>
+</div>
+
+<section class="carousel-section reveal">
+  <div class="carousel-container carousel-hidden">
+
+
+    <button class="carousel-btn prev" onclick="moveSlide(this, -1)">‹</button>
+<button class="carousel-btn next" onclick="moveSlide(this, 1)">›</button>
+
+
+
+    <div class="carousel-track">
+  <div class="carousel-item"><img src="2.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="3.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="4.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="2.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="3.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="4.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="2.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="3.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="4.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="2.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="3.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="4.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="2.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="3.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="4.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="2.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="3.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="4.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="2.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="3.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="4.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="2.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="3.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="4.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="2.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="3.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="4.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="2.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="3.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="4.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="2.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="3.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="4.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="2.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="3.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="4.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="2.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="3.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="4.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="2.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="3.jpeg" alt="" loading="lazy" decoding="async"></div>
+  <div class="carousel-item"><img src="4.jpeg" alt="" loading="lazy" decoding="async"></div>
+</div>
+
+  </div>
+</section>
+
+</section>
+
+<!-- SPOTIFY -->
+<section class="spotify-section reveal">
+
+  <div class="spotify-contenido">
+
+    <div class="spotify-icono">
+      <img src="Musica.gif" alt="Spotify">
+    </div>
+
+    <h2 class="spotify-titulo">¿Qué canción no puede faltar?</h2>
+
+    <p class="spotify-texto">
+      Ayudame a armar la playlist de esta noche.<br>
+      ¡Subí tu canción favorita!
+    </p>
+
+    <a href="https://open.spotify.com/playlist/6ksHEijPnNi6xYul8ZWtTb?si=kZ1QdAgwS16UjydEUpU4rA&utm_source=copy-link&pt=76918ff03511f9d00cd84d311d0ad761&pi=qos9yeG7Th-uV" target="_blank" class="spotify-boton">
+  AGREGAR UNA CANCIÓN
+</a>
+
+  </div>
+
+</section>
+
+
+<section class="regalo-section reveal">
+
+  <div class="regalo-contenido">
+
+    <!-- ICONO -->
+    <div class="regalo-icono">
+      <img src="Regalo.gif" alt="Regalo">
+    </div>
+
+    <h2 class="regalo-titulo">Regalo</h2>
+
+    <p class="regalo-texto">
+  Tu presencia es mi mejor regalo,<br>
+  pero si deseás obsequiarme algo<br>
+  habrá una urna en el salón.<br>
+</p>
+
+  </div>
+
+</section>
+
+</div>
+
+<section class="whatsapp-section reveal">
+
+  <div class="whatsapp-contenido">
+
+    <!-- ICONO -->
+    <div class="whatsapp-icono">
+      <img src="Sobre.gif" alt="WhatsApp">
+    </div>
+
+    <h2 class="whatsapp-titulo">Confirmación</h2>
+
+    <p class="whatsapp-texto">
+      Confirmá tu asistencia antes del<br>
+      15 de Octure enviándome un <br>
+      mensaje por WhatsApp
+    </p>
+
+    <div class="whatsapp-botones">
+
+  <a 
+    href="https://wa.me/5492344501752?text=Hola%20Renata!%20Confirmo%20mi%20asistencia%20a%20tus%2015%20"
+    target="_blank"
+    class="whatsapp-boton"
+  >
+    RENATA
+  </a>
+
+  <a 
+    href="https://wa.me/5492345417028?text=Hola%20Silvana!%20Confirmo%20mi%20asistencia%20a%20los%2015%20de%20Renata%20"
+    target="_blank"
+    class="whatsapp-boton"
+  >
+    SILVANA
+  </a>
+
+  <a 
+    href="https://wa.me/5492344500325?text=Hola%20Nicolás!%20Confirmo%20mi%20asistencia%20a%20los%2015%20de%20Renata%20"
+    target="_blank"
+    class="whatsapp-boton"
+  >
+    NICOLÁS
+  </a>
+
+</div>
+
+  </div>
+
+</section>
+
+<section class="frase-separador frase-oscura reveal">
+
+  <div class="linea-oscura reveal"></div>
+
+  <p class="frase-texto-oscura reveal">
+    QUIERO QUE SEAS PARTE DE ESTA NOCHE TAN ESPECIAL PARA MÍ
+  </p>
+
+  <div class="linea-oscura reveal"></div>
+
+</section>
+
+<section class="foto-espera-section reveal">
+
+  <div class="foto-espera-contenido">
+
+    <!-- FOTO VERTICAL -->
+    <img src="5.jpeg" alt="Male" class="foto-espera-img">
+
+    <!-- ICONO -->
+    <img src="Globo.gif" alt="Icono" class="foto-espera-icono">
+
+    <!-- TEXTO -->
+    <p class="foto-espera-texto">Te espero!</p>
+    <p class="foto-espera-nombre">Renata</p>
+
+  </div>
+
+</section>
+
+  <script src="script.js"></script>
+
+  <footer class="footer">
+
+  <div class="footer-contenido">
+
+    <!-- LOGO -->
+    <img src="Logo.webp" alt="Pixelarte" class="footer-logo">
+
+    <!-- REDES -->
+    <div class="footer-redes">
+
+      <a
+        href="https://wa.me/5492345561092"
+        target="_blank"
+        aria-label="WhatsApp"
+        class="footer-icono"
+      >
+        <img src="Whatsapp.png" alt="WhatsApp">
+      </a>
+
+
+    </div>
+
+  </div>
+
+</footer>
+
+</body>
+</html>
