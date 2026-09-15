@@ -1021,13 +1021,19 @@ transform:translateY(-50%) scale(1.08);
 
 @media (max-width: 480px) {
   .footer-contenido {
-    flex-direction: row;       /* 👈 en línea */
+    flex-direction: row;
     justify-content: center;
     gap: 1.5rem;
+    transform: translateY(-12px);
   }
 
+  .footer {
+  padding-top: 1rem;
+  padding-bottom: 2.5rem;
+}
+
   .footer-logo {
-    width: 75px;
+    width: 150px;
   }
 
   .footer-redes {
@@ -1035,7 +1041,7 @@ transform:translateY(-50%) scale(1.08);
   }
 
   .footer-icono img {
-    width: 28px;
+    width: 45px;
   }
 }
 
